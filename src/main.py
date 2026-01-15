@@ -1,5 +1,8 @@
+from utils.git import get_staged_diff
+
+
 def main():
-    print("Hello from git-copy-context!")
+    print(get_staged_diff())
 
 
 if __name__ == "__main__":
